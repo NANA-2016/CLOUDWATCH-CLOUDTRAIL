@@ -56,7 +56,7 @@ watch agent defining the metrics that will be collected from the EC2 instance an
 
 code analysis
 
-metrics - Metrics to be cillected
+metrics - Metrics to be collected
 
 append_dimensions - specifies key value pairs that help identify source of data in the cloud watch to be appended to all
 
@@ -102,7 +102,7 @@ EC2 INSTANCE where the cloud watch agent is installed.
 ![image](https://github.com/NANA-2016/CLOUDWATCH-CLOUDTRAIL/assets/141503408/1b69ccea-0d5a-48a3-8c9f-c09af69516b9)
 
 
-#### create the file contnt with the scrpit below
+#### create the file content with the scrpit below
 
 #!/bin/bash
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/linux/amd64/latest/AmazonCloudWatchAgent.zip
@@ -155,7 +155,7 @@ sudo ./script.sh
 
   IAM console >policy >create pilicy > Role created earlier(EC2-role) select it and double click on the role >edit > Add 
  
- permission  > select JSON  and add the code provided below after deleting the content already present > Add Policy name .
+ permission >Attach policies > select JSON  and add the code provided below after deleting the content already present > Add Policy name .
 
  {
     "Version": "2012-10-17",
